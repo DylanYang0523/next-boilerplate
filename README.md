@@ -16,7 +16,7 @@
 - [x] module-alias
 - [x] @babel/plugin-proposal-decorators
 
-# In Development 🐔
-- [] i18n
-- [] auth
-- [] ...
+# In Development 🐔
+- [ ] i18n
+- [ ] auth
+- [ ] ...
