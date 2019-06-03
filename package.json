@@ -1,0 +1,53 @@
+{
+  "name": "next-boilerplate",
+  "version": "1.0.0",
+  "description": "Let's build SSR with next.js",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon -r esm -r module-alias/register ./server/index.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node -r esm -r module-alias/register ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DylanYang0523/next-boilerplate"
+  },
+  "keywords": [
+    "next",
+    "react",
+    "redux",
+    "redux-saga"
+  ],
+  "author": "Dylan Yang",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "app-root-path": "^2.2.1",
+    "es6-promise": "^4.2.6",
+    "esm": "^3.2.25",
+    "express": "^4.17.0",
+    "fs-extra": "^8.0.1",
+    "https": "^1.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "module-alias": "^2.2.0",
+    "next": "^8.1.0",
+    "next-redux-saga": "^4.0.2",
+    "next-redux-wrapper": "^3.0.0-alpha.2",
+    "next-routes": "^1.4.2",
+    "nodemon": "^1.19.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-saga": "^1.0.2"
+  },
+  "_moduleAliases": {
+    "@routes": "routes",
+    "@config": "config",
+    "@redux": "redux",
+    "@actions": "redux/actions",
+    "@reducers": "redux/reducers",
+    "@sagas": "sagas"
+  }
+}
